@@ -48,7 +48,7 @@ function App() {
         <Navbarr title = "My Blog" mode = {mode} toggleMode = {toggleMode}/>
         <Alert alert = {alert}/>
         <div className="container my-5">
-          <TextForm heading = "Enter the text" mode = {mode} showAlert = {showAlert}/>
+          <TextForm heading = "WordX | UpperCase to LowerCase | LowerCase to UpperCase" mode = {mode} showAlert = {showAlert}/>
           {/* <Routes> */}
             {/* <Route exact path="/About" element={<About />} />
             <Route exact path="/" element = {<TextForm heading = "Enter the text" mode = {mode} showAlert = {showAlert}/>} /> */}

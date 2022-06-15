@@ -10,6 +10,8 @@ const About = () => {
         // padding : '50px'
     });
 
+    
+
     const [mode, setMode] = useState ("Set to Light Mode");
 
     const toggleStyle = () => {
